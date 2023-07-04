@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!--<item name="android:windowSplashScreenBackground">@color/color_yellow</item>-->
+        <item name="android:windowBackground">@color/color_yellow</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_white</item>
+        <item name="colorPrimaryDark">@color/color_yellow</item>
+        <item name="colorAccent">@color/color_black</item>
+        <!-- Widgets Style -->
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Button">
+        <item name="android:backgroundTint">@color/color_blue</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_marginHorizontal">10dp</item>
+    </style>
+
+</resources>

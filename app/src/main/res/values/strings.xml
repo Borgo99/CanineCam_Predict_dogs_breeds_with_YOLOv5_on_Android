@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CanineCam</string>
+    <string name="description_en">Identify any dog breed with just one click! CanineCam uses cutting-edge AI technology to analyze a photo of a dog and reveal its breed in seconds. Never wonder about a dog\'s breed again, with CanineCam in your pocket.</string>
+    <string name="description_it">Identifica qualsiasi razza di cane con un solo clic! CanineCam utilizza la tecnologia AI di ultima generazione per analizzare una foto di un cane e rivelare la sua razza in pochi secondi. Non chiederti mai più quale sia la razza di un cane, con CanineCam sempre a portata di mano.</string>
+    <string name="image_view">Image View</string>
+    <string name="detect">Detect</string>
+    <string name="run_model">Running the model...</string>
+    <string name="restart">Restart</string>
+    <string name="select">Load new photo</string>
+    <string name="live">Open Camera</string>
+</resources>
