@@ -3,8 +3,7 @@
 The goal of this project is to create an Android application capable of recognizing dog breeds using the device's camera. To achieve this objective, several Computer Vision techniques were analyzed, leading to the selection of the YOLOv5 model.
 
 YOLOv5 is a pre-trained model for object detection and image classification, with over 7 million parameters. Through a transfer learning phase, based on Stanford Dogs Dataset found on Kaggle, the model was trained to identify the classes of interest. However, the complexity of the model and the large number of classes to predict proved to be too demanding for the Colab platform used for training. Therefore, we limited the number of classes to 25, which allowed us to utilize the Colab GPU and achieve reasonable accuracy.
-
-### Android app
+These are some screens of the app.
 ![App screens](screen-collage.jpeg)
 
 ### CameraX
