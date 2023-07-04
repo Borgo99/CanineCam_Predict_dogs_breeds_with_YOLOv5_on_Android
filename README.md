@@ -4,7 +4,7 @@ The goal of this project is to create an Android application capable of recogniz
 
 YOLOv5 is a pre-trained model for object detection and image classification, with over 7 million parameters. Through a transfer learning phase, based on Stanford Dogs Dataset found on Kaggle, the model was trained to identify the classes of interest. However, the complexity of the model and the large number of classes to predict proved to be too demanding for the Colab platform used for training. Therefore, we limited the number of classes to 25, which allowed us to utilize the Colab GPU and achieve reasonable accuracy.
 
-## Android App
+## Android app
 
 ![App screens](screen-collage.jpeg)
 
@@ -23,7 +23,7 @@ The "PrePostProcessor.java" file should be customized to adapt it to our specifi
 
 Finally, using the "ObjectDetectionActivity.java" file and the "run()" method in the MainActivity, we can control the model's behavior and the display of results on the screen.
 
-## YOLOv5 Transfer Learning
+## YOLOv5 - Transfer learning
 
 You can find my Colab Notebook to train the YOLOv5 model and export it to `torchscript` for Android here:
 https://colab.research.google.com/drive/1R8dUxk_8eFu0nkbC6kZvV-lde1X5d5hm?usp=sharing
